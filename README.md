@@ -1,6 +1,6 @@
 Run with `py -m pykeyboardmelee`. Stop with CTRL-C
 
-All code in __main__.py with comments.
+All code in `pykeyboardmelee/__main__.py` with comments.
 
 TODO
 - pypi release, and prep
