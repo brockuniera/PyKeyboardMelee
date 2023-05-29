@@ -193,8 +193,8 @@ right DRight
 def binds_from_str(s):
     binds = {}
     for line in binds_str.strip().splitlines():
-        line = line.strip()
         if not line: continue
+        line = line.strip()
         lhs, rhs = line.rsplit(' ', 1)
         binds[lhs.strip()] = globals()[rhs]
     assert all(isinstance(v(), Vkey) for v in binds.values())
